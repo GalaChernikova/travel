@@ -1,0 +1,102 @@
+/* header */
+.header-logo img:hover {
+    width: 180px;
+    transition: all 0.5s ease-out;
+}
+
+.header-links-list li:hover {
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+}
+
+
+/* menu button */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #293241;
+    color: #FFFFFF;
+
+    width: 100px;
+    height: 40px;
+    border-radius: 23px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display:block;
+}
+
+
+/* buttons */
+.sign-in button:hover,
+.discover-box button:hover,
+.popular button:hover {
+    background-color: #FFFFFF;
+    color: #EE6C4D;
+    border: 2px solid #EE6C4D;
+    transition: all 0.3s ease-out;
+}
+
+.sub-field button:hover {
+    background-color: #FFFFFF;
+    color: #293241;
+    border: 2px solid #293241;
+    transition: all 0.3s ease-out;
+}
+
+/* main */
+h1:hover {
+    font-size: 54px;
+    transition: all 0.5s ease-out;
+}
+
+.swiper-slide img:hover {
+    width: 110%;
+    transition: all 0.5s ease-out;
+}
+
+.about-info p:hover {
+    font-size: 26px;
+    transition: all 0.5s ease-out;
+}
+
+.about-info p a:hover {
+    text-decoration: underline;
+    transition: all 0.5s ease-out;
+}
+
+.rev:hover {
+    width: 420px;
+    height: 285px;
+    transition: all 0.5s ease-out;
+}
+
+.sub-box-info h2:hover {
+    font-size: 40px;
+    transition: all 0.5s ease-out;
+}
+
+
+/* footer */
+.footer-logo:hover {
+    padding-top: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.social-list li:hover {
+    padding-top: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.footer-links h5:hover {
+    font-size: 22px;
+    transition: all 0.5s ease-out;
+}
+
+.footer-links li:hover {
+    font-size: 22px;
+    text-decoration: underline;
+    transition: all 0.5s ease-out;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Travel</title>
+
+    <link rel="stylesheet" href="./travel.css">
+    <link rel="stylesheet" href="./travelanimation.css">
+    <link rel="stylesheet" href="./travelmedia.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <div class="header-logo">
+                <img src="./images/logo.svg" alt="logo blue">
+            </div>
+
+            <div class="header-links">
+                <ul class="header-links-list">
+                    <li><a href="#"><b>Home</b></a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu &#8595;</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#"><b>Home</b></a><br>
+                        <a href="#">Explore</a><br>
+                        <a href="#">About</a><br>
+                    </div>
+                </div> 
+
+                <div class="sign-in">
+                    <button type="submit" name="sign-in">Sign In</button>
+                </div>
+            </div> 
+
+           
+        </div>
+    </header>
+
+    <main>
+        <section class="discover">
+            <div class="discover-box">
+                <h1>Discover your next
+                    place to travel
+                    in Taiwan</h1>
+
+                <p>Since 2020, we’ve guided more than
+                    100.000 people to enjoy their best 
+                    <b>Taiwan Experience</b>
+                    </p>
+
+                <button type="submit" name="explore">Let’s Explore</button>
+            </div>
+
+            <img src="./images/main.png" alt="main">
+        </section>
+
+        <img src="./images/popular-top.png" alt="top bckgr">
+        <section class="popular">
+            
+            <h3>Popular destinations in Taiwan</h3>
+
+            <div class="popular-offer">
+                <div class="offer taipei"><a href="#">
+                    <img src="./images/taipei.png" alt="taipei">
+
+                    <div class="slide-box">
+                       <h4>Taipei</h4>
+                        <p>56 Destinations</p>
+                        <img src="./images/5-stars.svg" alt="5 stars"> 
+                    </div>                      
+                </a></div>
+                
+                <div class="offer taichung"><a href="#">
+                    <img src="./images/taichung.png" alt="taichung">
+
+                    <div class="slide-box">
+                        <h4>Taichung</h4>
+                         <p>48 Destinations</p>
+                         <img src="./images/4.5-stars.svg" alt="4.5 stars"> 
+                     </div>    
+                </a></div>
+
+                <div class="offer keelung"><a href="#">
+                    <img src="./images/keelung.png" alt="keelung">
+
+                    <div class="slide-box">
+                        <h4>Keelung</h4>
+                         <p>24 Destinations</p>
+                         <img src="./images/4.5-stars.svg" alt="4.5 stars"> 
+                     </div>   
+                </a></div>  
+
+                <div class="offer kaohsiung"><a href="#">
+                    <img src="./images/kaohsiung.png" alt="kaohsiung">
+
+                    <div class="slide-box">
+                        <h4>Kaohsiung</h4>
+                         <p>37 Destinations</p>
+                         <img src="./images/4-stars.svg" alt="4 stars"> 
+                     </div>  
+                </a></div> 
+            </div>
+
+            <button type="submit" name="show-more">Show More</button>
+            
+        </section>
+        <img src="./images/popular-bottom.png" alt="bottom bckgr">
+
+        <section class="about">
+            <h3>About Us</h3>
+
+            <div class="about-box">
+                <div class="about-info">
+                    <p><a href="#">Amazing Taiwan</a> is travel guidance platform,
+                        helps hundreds of thousands of people each month,
+                        become <b>better travelers.</b></p>
+                    <p>Travelers across the globe use the Amazing Taiwan site
+                        to <b>discover</b> where to visit, based on guidance
+                        from those who have been there before.</p>
+                    <p>As a travel guidance company, Amazing Taiwan
+                        makes planning easy no matter the trip type.</p>
+                </div>
+
+                <img src="./images/about.png" alt="about">
+            </div>
+
+            
+        </section>
+
+        <section class="review">
+            <h3>Let’s see what other travellers say</h3>
+
+            <div class="review-box">
+                <div class="rev">
+                    <img src="./images/michael.svg" alt="michael">
+
+                    <div class="rev-info">
+                        <h4>Taipei 101</h4>
+                        <img src="./images/5-stars.svg" alt="5 stars">
+                        <p>What an amazing place,
+                            I can see 360° view of Taipei
+                            from here.</p>
+                        <b>Michael</b>
+                    </div>  
+                </div>
+
+                <div class="rev">
+                    <img src="./images/william.svg" alt="william">
+
+                    <div class="rev-info">
+                        <h4>Jiufen Old Street</h4>
+                        <img src="./images/4.5-stars.svg" alt="4.5 stars">
+                        <p>You must visit this place,
+                            There are so many delicious
+                            food and beautiful landscape.</p>
+                        <b>William</b>
+                    </div>        
+                </div>
+
+                <div class="rev ">
+                    <img src="./images/mary.svg" alt="mary">
+
+                    <div class="rev-info">
+                        <h4>Shilin Night Market</h4>
+                        <img src="./images/4.5-stars.svg" alt="4.5 stars">
+                        <p class="last">This is a fun night market
+                            and easy to get to.
+                            It's pretty big</p>
+                        <b>Mary</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="sub-box">
+                <div class="sub-box-info">
+                    <h2>Subscribe our newsletter</h2>
+                    <p>Receive latest news, update, and many other things
+                    every week.</p>
+                    <div class="sub-field">
+                        <input type="email" name="email" placeholder="Your email here">
+                        <button type="submit" name="join">Join Now</button>
+                    </div>
+                </div>
+
+                <img src="./images/sub.png" alt="sub">
+            </div>
+        </section>
+    </main>
+    
+    <img src="./images/footer-top.png" alt="footer top bckgr">
+    <footer>
+        <div class="icons">
+            <div class="footer-logo">
+                <img src="./images/logo-white.svg" alt="logo-white">
+            </div>
+
+            <div class="social">
+                <ul class="social-list">
+                    <li><a href="#"><img src="./images/fb.svg" alt="fb"></a></li>
+                    <li><a href="#"><img src="./images/inst.svg" alt="inst"></a></li>
+                    <li><a href="#"><img src="./images/tw.svg" alt="tw"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <div class="menu">
+                <h5>Menu</h5>
+
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </div>
+
+
+            <div class="company">
+                <h5>Company</h5>
+
+                <ul class="company-list">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+
+            <div class="support">
+                <h5>Support</h5>
+
+                <ul class="support-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ/Help</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </div>
+
+
+            <div class="contact-us">
+                <h5>Contact Us</h5>
+
+                <ul class="contact-list">
+                    <li><address><a href="tel:0912345678">0912345678</a></address></li>
+                    <li><address><a href="mailto:support@amazingtaiwan.com">support@amazingtaiwan.com</a></address></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./travel.js"></script>
+</body>
+</html>
